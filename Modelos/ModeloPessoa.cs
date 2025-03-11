@@ -4,7 +4,7 @@
     {
         public ModeloPessoa(string name) 
         {
-            Name= name;
+            Name = name;
             Id = Guid.NewGuid();
         
         }
