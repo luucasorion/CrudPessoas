@@ -11,6 +11,10 @@
         
         public Guid Id { get; init; }
         public string Name { get; private set; }
-        
+
+        public void MudaNome(string nome)
+        {
+            Name = nome;
+        }
     }
 }
